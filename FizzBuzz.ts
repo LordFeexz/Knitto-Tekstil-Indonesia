@@ -1,4 +1,4 @@
-const fizzBuzz = (num : number) => {
+const fizzBuzz = (num : number) : any => {
     let temp : any = []
     for(let i = 1 ; i <= num ; i++){
         if(i % 15 === 0)
